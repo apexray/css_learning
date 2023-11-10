@@ -1,0 +1,54 @@
+ul{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style-type: none;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#first{
+    background-color: blueviolet;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second{
+    background-color:burlywood;
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width: 300px){
+    #second{
+        background-color: green;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 400px){
+    #first{
+        background-color: pink;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 600px){
+    #first{
+        background-color: red;
+    }
+}
+
+@media (min-width: 600px){
+    #first{
+        background-color: blue;
+    }
+}

@@ -1,0 +1,24 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(242, 96, 120);
+
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+div:hover{
+    background-color: skyblue;
+
+    /* transition-property: all;
+    
+    transition-timing-function: linear;
+    transform: rotate(45deg);
+    transform: scale(1.05); */
+    transition-duration: 2s;
+    transform: translatey(200px);
+
+}
+

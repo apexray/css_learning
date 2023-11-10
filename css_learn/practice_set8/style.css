@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-top: 5px solid black;
+    border-radius: 50%;
+
+
+    animation: spinAnimation 1.2s ease-in-out infinite normal; 
+
+    margin-top: 200px;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes spinAnimation {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);}
+    
+}

@@ -1,0 +1,9 @@
+#firstdiv{
+    background-image: url("naruto.jpg");
+    width: 100px;
+    height: 100px;
+    background-size: cover ;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}

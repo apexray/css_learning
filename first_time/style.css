@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+#logodiv{
+    background-color: #0f1111;
+    height: 60px;
+}
+
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+
+button{
+    background-color: #f08804;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 200px;
+    color: white;
+}
+
+.maindivs{
+    height: 100px;
+    width: 100px;
+    border: solid;
+}
+
+#firstdiv{
+    background-color: rgba(255,0,0,.5);
+}
+
+#seconddiv{
+    background-color: rgba(0,255,0,.5);
+}
+
+#thirddiv{
+    background-color: rgba(0,0,255,.5);
+}
+
+#main{
+    height: 700px;
+}
+
+footer{
+    background-color: #0f1111;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}

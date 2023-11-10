@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #202124;
+}
+
+.navbar{
+    height: 48px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.img{
+    background-image: url('rishabh-logo.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    height: 28px;
+    width: 28px;
+}
+
+.nav-gmail{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 15px;
+    width: 100px;
+}
+
+/* google image */
+
+.out-img{
+    height: 179px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+
+.google-img{
+    height: 92px;
+    width: 272px;
+    background-image: url('googlelogo.png');
+}
+
+.out-search-bar{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    padding: 20px;
+}
+
+.search-bar{
+    background-color: #202124;
+    border: 0.1px solid #828589;
+    border-radius: 50px;
+    height: 46px;
+    width: 898px;
+    display: flex;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 17px;
+}
+
+input{
+    background-color: #202124;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+}
+
+
+.search-logo{
+    width: 33px;
+    height: 46px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-logo i {
+    font-size: 16px;
+    color: #c3c8cf;
+}
+
+.search-mic{
+    height: 46px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-mic i{
+    font-size: 20px;
+}
+
+.search-button{
+    padding-top: 18px;
+    height: 88px;
+    width: 900px;
+}
+
+#outer-div2{
+    display: flex;
+    justify-content: center;
+}
+
+.r{
+    padding: 20px;
+    /* width: 100%; */
+}
